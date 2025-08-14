@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('header.css');
 @import url('home.css');
-@import url('menu.css');
+@import url('sobre.css');
 @import url('testimonials.css');
 @import url('footer.css');
 
 :root {
-    --color-primary-1: #ffffff;
-    --color-primary-2: #2c2c2c;
-    --color-primary-3: #6e6e6e;
-    --color-primary-4: #232323;
-    --color-primary-5: #191919;
-    --color-primary-6: #000000;
+    --color-primary-1: #f0eeee;
+    --color-primary-2: #212121;
+    --color-primary-3: #5a5a5a;
+    --color-primary-4: #494949;
+    --color-primary-5: #010101;
+    --color-primary-6: #121212;
 
-    --color-neutral-0: #010101;
-    --color-neutral-1: #000000;
+    --color-neutral-0: #000000;
+    --color-neutral-1: #212121;
 }
 
 * {
@@ -22,11 +22,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-header{
-    width: 200px;
-    display: none;
 }
 
 html {
@@ -75,7 +70,7 @@ section {
     border-radius: 10px;
     text-decoration: none;
     color: var(--color-neutral-1);;
-    box-shadow: 0px 0px 12px 4px rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow .3s ease;
 }
 
